@@ -16,3 +16,5 @@ Per clonar el repositori:
 
 1. git commit
 2. git push
+
+*Per recuperar els fitxers del repositori remot s'utilitza git pull i per tornar a guardar git push.*
