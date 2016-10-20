@@ -3,7 +3,9 @@
 
 *Feu una foto del panell de connectors posterior del vostre ordinador i identifiqueu-hi quin connector és cadascún.*
 
-![Sin titulo](/home/users/inf/hism1/ism26539567/Documentos/FF.jpg)
+
+![Sin titulo](FF.jpg)
+
 
  1.Port del ratolí i del teclat  
  2.DVI   
