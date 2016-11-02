@@ -1,6 +1,7 @@
 # Tipus de busos
 * PCI Express
 
+
 Versión | Código en línea | Velocidad de transferencia | Ancho de banda carril     | Ancho de banda en x16
 ------- | --------------- | -------------------------- | ------------------------- | ------------------------|
 1.0     | 8b/10b          | 2,5 GT/s                   | 2 Gbit/s (250 MB/s)       | 32 Gbit/s (4 GB/s)
