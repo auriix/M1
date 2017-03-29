@@ -1,12 +1,12 @@
 # Sistemes RAID
 * TAULA SISTEMES RAID
 
-Nivells | nº min. discs | nº máx. discs fallats  | Capacitat | Lectura    | Escritura  |
-------- | --------------| -----------------------| --------- | ------------------------|
-RAID 0  | 2             | 0                      | 2 Gbit/s  | 
-RAID 1  | 2 (min i max) | 1                      | 4 Gbit/s  | 
-RAID 5  | 3             | 1                      | 7,9 Gbi   | 
-RAID 6  | 4             | 2                      | 15,8 Gbit | 
-RAID 10 | 4             | 1/mirror
-RAID 50 | 6             |
-RAID 60 | 8             |
+Nivells | nº min. discs | nº máx. discs fallats  | Capacitat    | Lectura    | Escritura  |
+------- | --------------| -----------------------| ------------ | -----------|------------|
+RAID 0  | 2             | 0                      | 100%         | excelent   |
+RAID 1  | 2 (min i max) | 1                      | 50%          | very good  |
+RAID 5  | 3             | 1                      | (67%-94%)    | very good  |
+RAID 6  | 4             | 2                      | (50%-88%)    | good       |
+RAID 10 | 4             | 1/mirror               | 50%          | good       |
+RAID 50 | 6             | 1 per R5 set           | (67%-94%)    | very good  |
+RAID 60 | 8             | 1 per R6 set           | (50%-88%)    | good       |
