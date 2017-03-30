@@ -45,7 +45,3 @@ El Raid 6 tè mínim 4 discs.(/dev/vda /dev/vdb /dev/vdc /dev/vdd)
 El Raid 10 tè mínim 4 discs.(/dev/vda /dev/vdb /dev/vdc /dev/vdd)
   - El level indica el tipus de Raid
   
-  
-  
-  
-  
