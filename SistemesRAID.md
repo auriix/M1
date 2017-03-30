@@ -1,5 +1,5 @@
 # Sistemes RAID
-* TAULA SISTEMES RAID
+* 1-TAULA SISTEMES RAID
 
 Nivells | nº min. discs | nº máx. discs fallats  | Capacitat    | Lectura    | Escritura  |
 ------- | --------------| -----------------------| ------------ | -----------|------------|
