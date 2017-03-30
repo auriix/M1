@@ -26,4 +26,11 @@ Fiquem arxius dintre del directori /mnt, per simular que tenim fichers i borrem 
 Anem afegint i borrant discs cambiant el tipus de Raid amb la primera comanda, així veiem els canvis que tè cadascún.
 
 * 3-Crear RAID1
---
+**mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/vda /dev/vdb**  
+El Raid 1 tè 2 discs (min i max).
+  - El level indica el tipus de Raid
+
+* 4-Crear RAID5
+**mdadm --create /dev/md0 --level=5 --raid-devices=3 /dev/vda /dev/vdb**  
+El Raid 5 tè mínim 3 discs.
+  - El level indica el tipus de Raid
