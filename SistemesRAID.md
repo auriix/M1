@@ -11,7 +11,7 @@ RAID 10 | 4             | 1/mirror               | 50%          | good       | g
 RAID 50 | 6             | 1 per R5 set           | (67%-94%)    | very good  | very good  |
 RAID 60 | 8             | 1 per R6 set           | (50%-88%)    | good       | good       |
 
-* 1-Metodologia utilitzada a classe per a fer proves amb màquines virtuals.  
+* 2-Metodologia utilitzada a classe per a fer proves amb màquines virtuals.  
 Primer hem creat una màquina virtual Fedora.  
 Amb la bombeta afegim hardware: 3 DISCS vda (Virtio) de 200MB  
 Entrem a la màquina i com a root executem aquesta comanda:  
@@ -24,3 +24,6 @@ Montem /dev/md0 a /mnt: **mount /dev/md0 /mnt**
 
 Fiquem arxius dintre del directori /mnt, per simular que tenim fichers i borrem un disc desde la bombeta, per veure que passa, si s'han perdut les dades segons el tipus de Raid, i els discs que poden fallar.  
 Anem afegint i borrant discs cambiant el tipus de Raid amb la primera comanda, així veiem els canvis que tè cadascún.
+
+* 3-Crear RAID1
+--
