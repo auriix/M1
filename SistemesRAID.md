@@ -27,10 +27,25 @@ Anem afegint i borrant discs cambiant el tipus de Raid amb la primera comanda, a
 
 * 3-Crear RAID1
 **mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/vda /dev/vdb**  
-El Raid 1 tè 2 discs (min i max).
+El Raid 1 tè 2 discs (min i max).(/dev/vda /dev/vdb)
   - El level indica el tipus de Raid
 
 * 4-Crear RAID5
-**mdadm --create /dev/md0 --level=5 --raid-devices=3 /dev/vda /dev/vdb**  
-El Raid 5 tè mínim 3 discs.
+**mdadm --create /dev/md0 --level=5 --raid-devices=3 /dev/vda /dev/vdb /dev/vdc**  
+El Raid 5 tè mínim 3 discs.(/dev/vda /dev/vdb /dev/vdc)
   - El level indica el tipus de Raid
+  
+* 5-Crear RAID6
+**mdadm --create /dev/md0 --level=6 --raid-devices=4 /dev/vda /dev/vdb /dev/vdc /dev/vdd**  
+El Raid 6 tè mínim 4 discs.(/dev/vda /dev/vdb /dev/vdc /dev/vdd)
+  - El level indica el tipus de Raid
+  
+* 6-Crear RAID10
+**mdadm --create /dev/md0 --level=10 --raid-devices=4 /dev/vda /dev/vdb /dev/vdc /dev/vdd**  
+El Raid 10 tè mínim 4 discs.(/dev/vda /dev/vdb /dev/vdc /dev/vdd)
+  - El level indica el tipus de Raid
+  
+  
+  
+  
+  
