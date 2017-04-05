@@ -26,9 +26,10 @@ Per fer les pràctiques utilitzarem el Virt Manager per crear una màquina virtu
 #### Pràctica 4:  
 - Ampliem el volum lògic de dades al raid que acabem de crear : **pvcreate /dev/md0**
 - **vgextend practica1 /dev/md0**
-- **lvextend -l +100%FREE /dev/practica1/dades**
+- **lvextend -L +200M /dev/practica1/dades**
 #### Pràctica 5:  
 - Fem un resize del sistema de fitxers : **xfs_growfs /dev/practica1/dades**
+- Entrem a /mnt : **cd /mnt**
 - Creem un nou fitxer de 180M : **dd if=/dev/zero of=test2.img bs=1k count=180000**
 
 
