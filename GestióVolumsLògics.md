@@ -25,6 +25,8 @@
 - Ampliem el volum lògic de dades al raid que acabem de crear : **pvcreate /dev/md0**
 - **vgextend practica1 /dev/md0**
 - **lvextend -l +100%FREE /dev/practica1/dades**
-- Fem un resize : **xfs_growfs /dev/practica1/dades** 
-#### Pràctica 5:
+#### Pràctica 5:  
+- Fem un resize del sistema de fitxers : **xfs_growfs /dev/practica1/dades**
+- Creem un nou fitxer de 180M : **dd if=/dev/zero of=test2.img bs=1k count=180000**
+
 
