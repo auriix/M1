@@ -17,6 +17,9 @@ Per fer les pràctiques utilitzarem el Virt Manager per crear una màquina virtu
 - Primer es crea el volum físic : **pvcreate /dev/vda**
 - Després el grup de volums : **vgcreate practica1 /dev/vda** (Practica 1 ès el nom del volum)
 - A continuació es crea el volúm lògic (partciió): **lvcreate -l 100%FREE -n dades practica 1** (-l es el tamany, en aquest cas , la total capacitat del disc.)
+
+![Sin titulo](M1/Imatges/Captura de pantalla de 2017-04-05 12-35-15.png)
+
 #### Pràctica 2:  
 - Creem un sistema de fitxers xfs al volum creat : **mkfs.xfs /dev/practica1/dades**
 - Muntatge : **mount /dev/practica1/dades  /mnt**
