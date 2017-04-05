@@ -10,7 +10,9 @@
   del disco real, este puede aumentar su tamaño (crecer) añadiéndole más PVs.
   - LV: Logical Volume (Volumen Lógico), particiones. Los LVs serían las particiones del VG.
   
-### Entorn de pràctiques: Explicar com farem la pràctica detalladament (màquina virtual i afegir tres discs de 200M).
+### Entorn de pràctiques: 
+Per fer les pràctiques utilitzarem el Virt Manager per crear una màquina virtual, en el meu cas Fedora, amb la bombeta afegirem el Hardware, 3 discs de 200M (0,2G) tipus Virtio, guardem i encenem la màquina, a terminal si fem un **lsblk** podem comprovar que els discs de 200M s'an creat correctament amb els noms: vda, vdb, vdc. Podem començar les pràctiques.  
+
 #### Pràctica 1:  
 - Primer es crea el volum físic : **pvcreate /dev/vda**
 - Després el grup de volums : **vgcreate practica1 /dev/vda** (Practica 1 ès el nom del volum)
