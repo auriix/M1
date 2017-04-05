@@ -11,12 +11,17 @@
   - LV: Logical Volume (Volumen Lógico), particiones. Los LVs serían las particiones del VG.
   
 ### Entorn de pràctiques: Explicar com farem la pràctica detalladament (màquina virtual i afegir tres discs de 200M).
-#### Pràctica 1: 
+#### Pràctica 1:  
 - Primer es crea el volum físic : **pvcreate /dev/vda**
 - Després el grup de volums : **vgcreate practica1 /dev/vda** (Practica 1 ès el nom del volum)
-- A continuació es crea el volúm lògic (partciió): **lvcreate -l 100%FREE -n dades practica 1** (-l es el tamany, en aquest cas , la total capacitat del disc.)
-#### Pràctica 2:
-#### Pràctica 3:
+- A continuació es crea el volúm lògic (partciió): **lvcreate -l 100%FREE -n dades practica 1** (-l es el tamany, en aquest cas , la total capacitat del disc.)  
+#### Pràctica 2:  
+- Creem un sistema de fitxers xfs al volum creat : **mkfs.xfs /dev/practica1/dades**
+- Muntatge : **mount /dev/practica1/dades  /mnt**
+- Dintre de /mnt creem un fitxer de 180M : **dd if=/dev/zero of=test.img bs=1k count=180000**
+#### Pràctica 3:  
+
+
 #### Pràctica 4:
 #### Pràctica 5:
 
