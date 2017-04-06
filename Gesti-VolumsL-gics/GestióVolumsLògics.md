@@ -14,7 +14,12 @@
 Per fer les pràctiques utilitzarem el Virt Manager per crear una màquina virtual, en el meu cas Fedora, amb la bombeta afegirem el Hardware, 3 discs de 200M (0,2G) tipus Virtio, guardem i encenem la màquina, a terminal si fem un **lsblk** podem comprovar que els discs de 200M s'han creat correctament amb els noms: vda, vdb, vdc. Podem començar les pràctiques.  
 
 #### Pràctica 1:  
-- Primer es crea el volum físic : **pvcreate /dev/vda**
+- Primer es crea el volum físic : 
+
+---
+**pvcreate /dev/vda**
+---
+
 - Després el grup de volums : **vgcreate practica1 /dev/vda** (Practica 1 ès el nom del volum)
 - A continuació es crea el volúm lògic (partciió): **lvcreate -l 100%FREE -n dades practica 1** (-l es el tamany, en aquest cas , la total capacitat del disc.)
 
