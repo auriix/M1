@@ -40,6 +40,8 @@ vgcreate practica1 /dev/vda
 ```
 lvcreate -l 100%FREE -n dades practica 1
 ```  
+![Sin titulo](practica1.png)
+
 #### Pràctica 2:  
 - Creem un sistema de fitxers xfs al volum creat : **mkfs.xfs /dev/practica1/dades**
 ```  
@@ -53,11 +55,16 @@ mount /dev/practica1/dades  /mnt
 ```  
 dd if=/dev/zero of=test.img bs=1k count=180000
 ```  
+![Sin titulo](practica2.png)
+![Sin titulo](practica2-2.png)
+![Sin titulo](practica2-3.png)
+
 #### Pràctica 3:   
 - Creació RAID 1 als dos discos sobrants :
 ```  
 mdadm --create md0 --level=1 --raid-devices=2 /dev/vdb /dev/vdc
 ```  
+![Sin titulo](practica3.png)
 #### Pràctica 4:  
 - Ampliem el volum lògic de dades al raid que acabem de crear :
 ```  
@@ -65,6 +72,9 @@ pvcreate /dev/md0
 vgextend practica1 /dev/md0
 lvextend -L +200M /dev/practica1/dades
 ```  
+![Sin titulo](practica4.png)
+![Sin titulo](practica4-2.png)
+
 #### Pràctica 5:  
 - Fem un resize del sistema de fitxers : 
 ```  
@@ -78,4 +88,5 @@ cd /mnt
 ```  
 dd if=/dev/zero of=test2.img bs=1k count=180000
 ```  
-
+![Sin titulo](practica5.png)
+![Sin titulo](practica5-2.png)
