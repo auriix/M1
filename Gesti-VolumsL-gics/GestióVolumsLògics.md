@@ -11,7 +11,7 @@
   - LV: Logical Volume (Volumen Lógico), particiones. Los LVs serían las particiones del VG.
   
 ### Entorn de pràctiques: 
-Per fer les pràctiques utilitzarem el Virt Manager per crear una màquina virtual, en el meu cas Fedora, amb la bombeta afegirem el Hardware, 3 discs de 200M (0,2G) tipus Virtio, guardem i encenem la màquina, a terminal si fem un **lsblk** podem comprovar que els discs de 200M s'an creat correctament amb els noms: vda, vdb, vdc. Podem començar les pràctiques.  
+Per fer les pràctiques utilitzarem el Virt Manager per crear una màquina virtual, en el meu cas Fedora, amb la bombeta afegirem el Hardware, 3 discs de 200M (0,2G) tipus Virtio, guardem i encenem la màquina, a terminal si fem un **lsblk** podem comprovar que els discs de 200M s'han creat correctament amb els noms: vda, vdb, vdc. Podem començar les pràctiques.  
 
 #### Pràctica 1:  
 - Primer es crea el volum físic : **pvcreate /dev/vda**
