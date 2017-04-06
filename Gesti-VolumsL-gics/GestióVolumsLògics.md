@@ -3,15 +3,26 @@
   -  Logical Volume Management (LVM) es una capa de abstracción entre un dispositivo de almacenamiento (por ejemplo un disco)
   y un sistema de ficheros.  
 
-
-![lkj](M1/Gesti-VolumsL-gics/Imatges/Captura de pantalla de 2017-04-05 12-35-15.png)
-
 ### Què volen dir les sigles, definició, analogies i exemples de comandes (explicant què fan) vistes a classe de:  
   - PV: Physical Volume (Volumen fsico), identificación de discos. Es un dispositivo de almacenamiento 
-  (Puede ser un disco duro, una partición, una tarjeta SD, un floppy, un dispositivo RAID...)
+  (Puede ser un disco duro, una partición, una tarjeta SD, un floppy, un dispositivo RAID.
+  ```  
+  pvcreate (Crear un volum fsic)
+  pvs (Veure els volums fsics creats)
+  ```  
+  
   - VG: Volume Group (Grupo de volúmenes), discos virtuales. Un VG es un “disco” compuesto de uno o más PVs, a diferencia 
   del disco real, este puede aumentar su tamaño (crecer) añadiéndole más PVs.
+  ```  
+  vgcreate (Crear un volum de grup)
+  vgs (Per veure els grups de volums creats)
+  ```  
   - LV: Logical Volume (Volumen Lógico), particiones. Los LVs serían las particiones del VG.
+  ```  
+  lvcreate (Crear un volum lògic)
+  lvs (Veure els volums lògics creats)
+  lvextend (Ampliar o disminuir les particions)
+  ```  
   
 ### Entorn de pràctiques: 
 Per fer les pràctiques utilitzarem el Virt Manager per crear una màquina virtual, en el meu cas Fedora, amb la bombeta afegirem el Hardware, 3 discs de 200M (0,2G) tipus Virtio, guardem i encenem la màquina, a terminal si fem un **lsblk** podem comprovar que els discs de 200M s'han creat correctament amb els noms: vda, vdb, vdc. Podem començar les pràctiques.  
