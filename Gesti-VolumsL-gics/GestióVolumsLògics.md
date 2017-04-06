@@ -3,6 +3,9 @@
   -  Logical Volume Management (LVM) es una capa de abstracción entre un dispositivo de almacenamiento (por ejemplo un disco)
   y un sistema de ficheros.  
 
+
+![lkj](M1/Gesti-VolumsL-gics/Imatges/Captura de pantalla de 2017-04-05 12-35-15.png)
+
 ### Què volen dir les sigles, definició, analogies i exemples de comandes (explicant què fan) vistes a classe de:  
   - PV: Physical Volume (Volumen fsico), identificación de discos. Es un dispositivo de almacenamiento 
   (Puede ser un disco duro, una partición, una tarjeta SD, un floppy, un dispositivo RAID...)
@@ -14,10 +17,18 @@
 Per fer les pràctiques utilitzarem el Virt Manager per crear una màquina virtual, en el meu cas Fedora, amb la bombeta afegirem el Hardware, 3 discs de 200M (0,2G) tipus Virtio, guardem i encenem la màquina, a terminal si fem un **lsblk** podem comprovar que els discs de 200M s'han creat correctament amb els noms: vda, vdb, vdc. Podem començar les pràctiques.  
 
 #### Pràctica 1:  
-- Primer es crea el volum físic : **pvcreate /dev/vda**
-- Després el grup de volums : **vgcreate practica1 /dev/vda** (Practica 1 ès el nom del volum)
-- A continuació es crea el volúm lògic (partciió): **lvcreate -l 100%FREE -n dades practica 1** (-l es el tamany, en aquest cas , la total capacitat del disc.)
-
+- Primer es crea el volum físic :
+```
+pvcreate /dev/vda
+```
+- Després el grup de volums : (Practica 1 ès el nom del volum)
+```
+vgcreate practica1 /dev/vda
+```
+- A continuació es crea el volúm lògic (partciió): (-l es el tamany, en aquest cas , la total capacitat del disc.)
+```
+lvcreate -l 100%FREE -n dades practica 1
+```  
 #### Pràctica 2:  
 - Creem un sistema de fitxers xfs al volum creat : **mkfs.xfs /dev/practica1/dades**
 - Muntatge : **mount /dev/practica1/dades  /mnt**
