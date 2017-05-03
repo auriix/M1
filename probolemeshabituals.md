@@ -23,6 +23,7 @@
   - Comprovem amb un tester si la font dona senyal, dona pero no el voltatge exacte (molt menys) del que indica la font.
   
 * RAM mal puesta:
+  - El pc pita.
   - No arrenca el pc, mirem que estigui tot ben conectat darrere de la torre.
   - Mirem que la font estigui conectada a la corrent i el botó de darrere encès.
   - Obrim la torre i comprovem que tot estigui correcte.
@@ -64,19 +65,34 @@
   - Obrim la torre i comprovem que tot estigui correcte.
   - Mirem que no hi ha CPU.
   - Si hi ha CPU, busquem al manual de la placa base els errors dels tons i segons els tons que doni el pc mirem quin ès el problema.
+  
 * Placa rota
-
+  - El pc no arrenca ni pita.
+  - Comprovem que tot estigui ben conectat.
+  - Mirem que la font d'alimentació funcioni amb un tester, funciona.
+ 
 * Placa medio rota
+  - El pc s'encèn pero no arrenca.
+  - Comprovem component a component que vagin, van tots. Segueix sense arrencar.
 
 * Teclado roto: Depende de la configuración de la BIOS (halt on all errors:All but keyboard).
+  - El pc va i el teclat no funciona.
+  - Comprovem un altre teclat.
 
 * Falta ratón: No se queja.
+  - Mirem que hi hagi un ratolí conectat.
 
 * Falla CD/DVD: No se queja.
-
+  - El pc arrenca peró fico un CD/DVD i no va, el sistema operatiu no el reconeix.
+  - Obrim el cd i mirem que el floppy estigui ben conectat a la placa base.
+  
 * Falta Disco Duro/Disco sin formatear: Hará pitido POST OK. Mensaje de SYSTEM NOT FOUND.
-
+  - La màquina s'encèn pero no arrenca.
+  - Comprovem que hi hagi disc dur i si hi ha comprovar que estigui ben conectat.
+  - Arranquem amb una live i comprovem que el disc dur tingui un sistema de fitxers o ha estat formatejat.
+  
 * BIOS mal flasheada: No arranca. No hay problema en el caso DUAL BIOS.
+  - 
 
 * Disco duro con error SMART: Error POST. Hard drive SMART error. Permite omitir el error.
 
