@@ -64,7 +64,6 @@
   - Obrim la torre i comprovem que tot estigui correcte.
   - Mirem que no hi ha CPU.
   - Si hi ha CPU, busquem al manual de la placa base els errors dels tons i segons els tons que doni el pc mirem quin ès el problema.
-  
 
 * Placa rota
   - 
