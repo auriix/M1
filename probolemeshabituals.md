@@ -55,10 +55,19 @@
   - Comprovem que la pantalla estigui ben conectada, tant al pc i al endoll. La pantalla va però surt un missatje dient que no hi ha senyal i es queda en standby.
   - Canviem el cable de vídeo. Si segueix igual obrim el pc i comprovem que la gráfica estigui ben conectada.
   - Segueix sense anar.
+  - Busquem al manual de la placa base els errors dels tons i segons els tons que doni el pc mirem quin ès el problema.
 
 * CPU rota/ no hay CPU/chipset roto
+  - El pc pita.
+  - No arrenca el pc, mirem que estigui tot ben conectat darrere de la torre.
+  - Mirem que la font estigui conectada a la corrent i el botó de darrere encès.
+  - Obrim la torre i comprovem que tot estigui correcte.
+  - Mirem que no hi ha CPU.
+  - Si hi ha CPU, busquem al manual de la placa base els errors dels tons i segons els tons que doni el pc mirem quin ès el problema.
+  
 
 * Placa rota
+  - 
 
 * Placa medio rota
 
