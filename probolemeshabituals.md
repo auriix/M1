@@ -91,9 +91,9 @@
   - Comprovem que hi hagi disc dur i si hi ha comprovar que estigui ben conectat.
   - Arranquem amb una live i comprovem que el disc dur tingui un sistema de fitxers o ha estat formatejat.
   
- * BIOS mal flasheada: No arranca. No hay problema en el caso DUAL BIOS.
-  - Reiniciem la BIOS del fabricant. 
-
+* BIOS mal flasheada: No arranca. No hay problema en el caso DUAL BIOS.
+  - Reiniciem la BIOS del fabricant.
+  
 * Disco duro con error SMART: Error POST. Hard drive SMART error. Permite omitir el error.
 
 * Pantalla rota/cable roto: Arranca con normalidad.
