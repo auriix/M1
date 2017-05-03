@@ -50,6 +50,11 @@
   - No hi ha ningún mòdul de RAM.
   
 * Gráfica pinchada rota:
+  - El pc pita.
+  - El pc arrenca pero no dòna vídeo.
+  - Comprovem que la pantalla estigui ben conectada, tant al pc i al endoll. La pantalla va però surt un missatje dient que no hi ha senyal i es queda en standby.
+  - Canviem el cable de vídeo. Si segueix igual obrim el pc i comprovem que la gráfica estigui ben conectada.
+  - Segueix sense anar.
 
 * CPU rota/ no hay CPU/chipset roto
 
