@@ -38,9 +38,17 @@
   - Busquem al manual de la placa base els errors dels tons i segons els tons que doni el pc mirem quin ès el problema.
   
 * RAM medio rota: (unos KB mal)
+  - El pc arrenca.
+  - Notes que no dòna el rendiment que tindra que donar segons les GB de RAM.
+  - Busques les propietats del pc i veus que sol utiltza una part de tot el que tè.
 
 * Sin RAM:
-
+  - El pc pita.
+  - No arrenca el pc, mirem que estigui tot ben conectat darrere de la torre.
+  - Mirem que la font estigui conectada a la corrent i el botó de darrere encès.
+  - Obrim la torre i comprovem que tot estigui correcte.
+  - No hi ha ningún mòdul de RAM.
+  
 * Gráfica pinchada rota:
 
 * CPU rota/ no hay CPU/chipset roto
