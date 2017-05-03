@@ -64,10 +64,6 @@
   - Obrim la torre i comprovem que tot estigui correcte.
   - Mirem que no hi ha CPU.
   - Si hi ha CPU, busquem al manual de la placa base els errors dels tons i segons els tons que doni el pc mirem quin ès el problema.
-
-* Placa rota
-  - 
-
 * Placa medio rota
 
 * Teclado roto: Depende de la configuración de la BIOS (halt on all errors:All but keyboard).
