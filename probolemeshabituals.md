@@ -1,4 +1,10 @@
 * Botón power on roto:
+  - Arrenques el pc donant-li al botó, no funciona. 
+  - Comproves que la font d'alimentació estigui conectada a la corrent.
+  - Mires si el botó de darrera (alimentació de la font) estigui encès.
+  - Comproves si darrere de la torre està tot ben conectat.
+  - Obrim la torre i comprovem que tot estigui ben conectat, ens fixem que el cable del botó estigui tambè conectat correctament.
+  
 * Botón power on se queda clavado en ON:
 * Fuente rota del todo:
 * Fuente medio rota:
