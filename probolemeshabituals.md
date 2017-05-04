@@ -97,9 +97,23 @@
 * Disco duro con error SMART: Error POST. Hard drive SMART error. Permite omitir el error.
 
 * Pantalla rota/cable roto: Arranca con normalidad.
+   - El arrenca però la pantalla no s'encèn/dona senyal.
+   - Mirem que el cable de corrent estigui bé probant-lo amb una altre pantalla.
+   - Si el cable està correcte i la pantalla segueix sense encendres és que la pantalla està trencada.
+   - Si el cable és el que falla, el canviem per un altre.
 
 * USB del frontal cruzado: Puede quemar la placa. Puede quemar los pendrive.
+  
+   - El pc no detecta el USB
+   - Obrim la caixa i comprovem que tots els cables estiguin ben connectats.
+   - Ens adonem compte de que el cable que connecta amb l'USB frontal està creuat.
 
 * USB del frontal conectado mal en placa (otro conector que no es USB): Quema los pendrive (sobrevoltaje).
+   - El pc no detecta el USB
+   - Obrim la caixa i comprovem que tots els cables estiguin ben connectats.
+   - Ens adonem compte de que el cable que connecta amb l'USB està a un altre connector que no és el d'USB.
 
 * Pila de la BIOS esgotada
+   - Quan reiniciem la màquina, veiem que l'hora ni la data és la que hauria de ser.
+   - Entrem a la BIOS per canviar-ho però al sortir no ens ha guardat els canvis.
+
