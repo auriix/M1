@@ -52,7 +52,10 @@ Actúa sobre la capa de aplicació OSI, pot entendre diferents protocols i aplic
   - Porta el "Firewall de Windows".
 * Arrenqueu una màquina win7 a isard.escoladeltreball.org
 * Indiqueu com arribar al tallafocs (passos i pantalles)
-  - Primer obrim el Inici, busquem el Panel de control, click a Sistema y seguridad, click a Firewall de Windows.
+  - Primer obrim el Inici  
+  - Busquem el Panel de control  
+  - Click a Sistema y seguridad
+  - Click a Firewall de Windows.
 * Es troba activat en aquest windows?
   - Si, està activat per defecte.
 * Busqueu un altre tallafocs per windows. Indiqueu la plana web i les prestacions que ens dona. Intenteu que NOMÉS sigui tallafocs.
