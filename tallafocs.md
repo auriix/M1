@@ -36,17 +36,23 @@ Actúa sobre la capa de aplicació OSI, pot entendre diferents protocols i aplic
   - firewalld i iptables.
 * Quins dels anteriors tallafocs estan instal.lats al fedora de classe? Com ho comproveu?
   - Els dos estan instal·lats.
-  
-  
+
+        # systemctl status firewalld.service          
+        # iptables --version
   
 * Algun dels anteriors tallafocs es troba activat?
+  - Iptables està sempre activat i el firewalld està unactiu.
+  
 * Instal.leu el servidor web httpd o nginx i activeu-ne el servei (dnf installl ...  ; systemctl ....). Indiqueu les comandes i comproveu que des d'una altra màquina podeu accedir via web a la vostra IP (digueu-li a un company). Hauria de sortir la plana per defecte.
 * Activeu el servei firewalld. Indiqueu com ho feu.
 * Comproveu si ara es pot seguir accedint.
         
 ### Win7
 * Porta aquest SO algun tallafocs incorporat?
+  - Porta el "Firewall de Windows".
 * Arrenqueu una màquina win7 a isard.escoladeltreball.org
 * Indiqueu com arribar al tallafocs (passos i pantalles)
+  - Primer obrim el Inici, busquem el Panel de control, click a Sistema y seguridad, click a Firewall de Windows.
 * Es troba activat en aquest windows?
+  - Si, està activat per defecte.
 * Busqueu un altre tallafocs per windows. Indiqueu la plana web i les prestacions que ens dona. Intenteu que NOMÉS sigui tallafocs.
