@@ -23,10 +23,10 @@ Actúa sobre la capa de aplicació OSI, pot entendre diferents protocols i aplic
   - Físic
   
 * Quines capes té el model TCP/IP? En aquest cas feu una breu descripció de les funcionalitats de cada capa.
-  - Aplicació
-  - Transport
-  - Internet
-  - Accés a xarxa
+  - Aplicació: incorpora aplicacions de xarxa estándar (Telnet, SMTP, FTP, etc.). 
+  - Transport: brinda les dades d'enrutament, juntament amb els mecanismes que peremeten conèixer l'estat de la transmissió.
+  - Internet: responsable de proporcionar el paquet de dades (datagrama). 
+  - Accés a xarxa: especifica la forma en la que les dades han de enrutarse, sigui quin siguiel tipus de xarxa utilitzada.
   
 * A quina capa/capes sol treballar tradicionalment un tallafocs?
   - Sol treballar des de la capa de Transport (3) fins la d'Aplicació (4), en el model TCP/IP.
