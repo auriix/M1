@@ -41,7 +41,7 @@ Actúa sobre la capa de aplicació OSI, pot entendre diferents protocols i aplic
         # iptables --version
   
 * Algun dels anteriors tallafocs es troba activat?
-  - Iptables està sempre activat i el firewalld està unactiu.
+  - Iptables està sempre activat i el firewalld està inactiu.
   
 * Instal.leu el servidor web httpd o nginx i activeu-ne el servei (dnf installl ...  ; systemctl ....). Indiqueu les comandes i comproveu que des d'una altra màquina podeu accedir via web a la vostra IP (digueu-li a un company). Hauria de sortir la plana per defecte.
 * Activeu el servei firewalld. Indiqueu com ho feu.
