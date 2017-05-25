@@ -44,7 +44,15 @@ Actúa sobre la capa de aplicació OSI, pot entendre diferents protocols i aplic
   - Iptables està sempre activat i el firewalld està inactiu.
   
 * Instal.leu el servidor web httpd o nginx i activeu-ne el servei (dnf installl ...  ; systemctl ....). Indiqueu les comandes i comproveu que des d'una altra màquina podeu accedir via web a la vostra IP (digueu-li a un company). Hauria de sortir la plana per defecte.
+
+        # dnf install nginx
+        # systemctl status nginx  
+        # systemctl start nginx         
+        
 * Activeu el servei firewalld. Indiqueu com ho feu.
+
+        # systemctl start firewalld.service    
+        
 * Comproveu si ara es pot seguir accedint.
         
 ### Win7
