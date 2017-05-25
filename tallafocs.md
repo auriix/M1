@@ -55,7 +55,7 @@ Actúa sobre la capa de aplicació OSI, pot entendre diferents protocols i aplic
         # systemctl start firewalld.service    
         
 * Comproveu si ara es pot seguir accedint.
-  - Ja no pot accedir
+  - Ja no pot accedir.
  
 ### Win7
 * Porta aquest SO algun tallafocs incorporat?
