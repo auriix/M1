@@ -49,12 +49,14 @@ Actúa sobre la capa de aplicació OSI, pot entendre diferents protocols i aplic
         # systemctl status nginx  
         # systemctl start nginx         
         
+  - Cuan el meu company es conecta via navegador surt la plana per defecte de nginx.
 * Activeu el servei firewalld. Indiqueu com ho feu.
 
         # systemctl start firewalld.service    
         
 * Comproveu si ara es pot seguir accedint.
-        
+  - Ja no pot accedir
+ 
 ### Win7
 * Porta aquest SO algun tallafocs incorporat?
   - Porta el "Firewall de Windows".
