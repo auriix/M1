@@ -69,3 +69,9 @@ Actúa sobre la capa de aplicació OSI, pot entendre diferents protocols i aplic
 * Es troba activat en aquest windows?
   - Si, està activat per defecte.
 * Busqueu un altre tallafocs per windows. Indiqueu la plana web i les prestacions que ens dona. Intenteu que NOMÉS sigui tallafocs.
+
+  - Comodo Personal Firewall
+      - Prestacions:
+        - Et manté al corrent de tots els arxius sospitosos.
+        - Denegar per defecte Protection ™ de manera que només els arxius segurs executing.
+        - Les actualitzacions automàtiques per a la protecció més actualitzada.
