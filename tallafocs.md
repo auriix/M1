@@ -38,11 +38,10 @@ Actúa sobre la capa de aplicació OSI, pot entendre diferents protocols i aplic
   - Els dos estan instal·lats.
 
         # systemctl status firewalld.service          
-        # iptables --version
+        # systemctl status iptables 
   
 * Algun dels anteriors tallafocs es troba activat?
-  - Iptables està sempre activat i el firewalld està inactiu.
-  
+  - Els dos es troben inactius.
 * Instal.leu el servidor web httpd o nginx i activeu-ne el servei (dnf installl ...  ; systemctl ....). Indiqueu les comandes i comproveu que des d'una altra màquina podeu accedir via web a la vostra IP (digueu-li a un company). Hauria de sortir la plana per defecte.
 
         # dnf install nginx
